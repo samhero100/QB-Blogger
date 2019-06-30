@@ -25,9 +25,6 @@ def home(request):
 # end index.html/////////////////////////////////
 
 # start about.html////////////////////////////////////////
-def about(request):
-    return render(request,'about.html',{'title':' من انا'})
-# end about.html////////////////////////////////////////
 
 # start  detail.html////////////////////////////////////////
 @login_required(login_url='Login')
